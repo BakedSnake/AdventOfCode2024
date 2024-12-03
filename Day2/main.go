@@ -93,14 +93,14 @@ func main() {
 
 //second part
 func checkSafeRemove(report []int) bool {
-	for i := 0; i < len(report); i++ {
-		newReport := append([]int{}, report[:i]...)
-		newReport = append(newReport, report[i+1:]...)
-		if checkSafe(newReport) {
-			return true
-		}
-	}
-	return false
+  for i := 0; i < len(report); i++ {
+    newReport := append([]int{}, report[:i]...)
+    newReport = append(newReport, report[i+1:]...)
+    if checkSafe(newReport) {
+      return true
+    }
+  }
+  return false
 }
 
 func checkSafe(r []int) bool {
