@@ -47,6 +47,10 @@
 
 </td></tr> </table>
 
+<table>
+<tr><th></th></tr>
+<tr><td>
+
 | Day | Part 1 | Part 2 |
 | :---: | :---: | :---: |
 | [Day 21](https://adventofcode.com/2024/day/21) |   |   |
