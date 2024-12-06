@@ -7,20 +7,20 @@ import (
 )
 
 var directions = [8][2]int {
-	{-1,  0}, // Up
-	{ 1,  0}, // Down
-	{ 0, -1}, // Left
-	{ 0,  1}, // Right
-	{-1, -1}, // Up-Left Diagonal
-	{-1,  1}, // Up-Right Diagonal
-	{ 1, -1}, // Down-Left Diagonal
-	{ 1,  1}, // Down-Right Diagonal
+  {-1,  0}, // Up
+  { 1,  0}, // Down
+  { 0, -1}, // Left
+  { 0,  1}, // Right
+  {-1, -1}, // Up-Left Diagonal
+  {-1,  1}, // Up-Right Diagonal
+  { 1, -1}, // Down-Left Diagonal
+  { 1,  1}, // Down-Right Diagonal
 }
 
 var diagonals = [4][2]int {
-	{-1, -1}, // Up-Left Diagonal
+  {-1, -1}, // Up-Left Diagonal
   { 1,  1}, // Down-Right Diagonal
-	{-1,  1}, // Up-Right Diagonal
+  {-1,  1}, // Up-Right Diagonal
   { 1, -1}, // Down-Left Diagonal
 }
 
